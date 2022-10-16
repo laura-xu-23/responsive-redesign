@@ -146,6 +146,19 @@ h2 {
     color: #0A7EBF;
 }
 
+.footer {
+    background-color: #434151;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon {
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+
 @media screen and (max-width: 600px) {
     .header {
         flex-direction: row;
@@ -203,10 +216,10 @@ h2 {
         display: none;
     }
     .menu-items{
-        width: 40%;
+        width: 50%;
     }
     .cover-words {
-        font-size: 80px;
+        font-size: 70px;
     }
     .subheader {
         font-size: 30px;
